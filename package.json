@@ -1,0 +1,14 @@
+{
+  "name": "node.js-and-express.js---full-course",
+  "version": "1.0.0",
+  "description": "This course is about learning NodeJS and ExpressJS ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Varun",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
