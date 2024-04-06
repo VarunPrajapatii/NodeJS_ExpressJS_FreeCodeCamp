@@ -4,7 +4,7 @@ const path = require('path')
 const app = express()
 
 // setup static and middleware
-app.use(express.static('./public'))
+app.use(express.static('./public'))   //you can setup public folder and then paste there the js css and images..
 
 app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, './navbar-app/index.html'))
