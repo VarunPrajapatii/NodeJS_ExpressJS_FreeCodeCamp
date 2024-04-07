@@ -8,14 +8,9 @@ app.use(express.static('./public'))
 
 // app.get('/', (req, res) => {
 //   res.sendFile(path.resolve(__dirname, './navbar-app/index.html'))
-//   two mode methods:
-//   - adding to static assets
-//   - SSR (using template engine)
+//   adding to static assets
+//   SSR
 // })
-
-//So what happens is index.html is always going to be a root, so when user hits the server, 
-//by default server will serve this index.html and index.html has all the paths, so we dont have to 
-//setup this sendFile option...
 
 app.all('*', (req, res) => {
   res.status(404).send('resource not found')
