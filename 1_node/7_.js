@@ -4,10 +4,10 @@
 //Now if we put right path we should see result and if we put wrong path we should see the error
 //we can make it cleaner by setting up async await...
 // const getText = (path) => {
-    //     return new Promise((resolve, reject) => {
-        //         readFile(path, "utf8", (err, data) => {
-            //             if(err) {
-                //                 reject(err);
+//     return new Promise((resolve, reject) => {
+//         readFile(path, "utf8", (err, data) => {
+//             if(err) {
+//                 reject(err);
 //             } else {
 //                 resolve(data);
 //             }    
